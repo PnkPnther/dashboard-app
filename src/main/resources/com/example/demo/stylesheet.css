@@ -1,0 +1,27 @@
+/* GIVES COLOUR TO BACKGROUND */
+.background-color {
+    -fx-background-color: #2f3952;
+}
+/* GIVES COLOUR AND PADDING TO DIVIDER OF THE SPLIT PANE */
+.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+    -fx-background-color: #212738;
+    -fx-background-insets: 0;
+}
+/* DEFAULT COLOUR OF CLOSE AND MINIMIZE BUTTONS */
+.closeMinButton {
+    -fx-background-color: #2f3952;
+}
+/* COLOUR OF CLOSE AND MINIMIZE BUTTONS WHEN MOUSE HOVERS OVER THEM */
+.closeMinButton:hover {
+    -fx-background-color: #F75590;
+}
+/* DETAILS FOR SEPARATOR ELEMENT */
+.separator .line {
+    -fx-background-color: grey;
+    -fx-pref-height: 30;
+}
+/* BUTTON COLOUR */
+.button1 {
+    -fx-background-color: linear-gradient(to bottom left, #dbd6cc, #9da8cf)
+}
